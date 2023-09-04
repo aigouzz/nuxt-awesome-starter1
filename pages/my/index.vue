@@ -28,3 +28,11 @@ useHead({
     </div>
   </LayoutPageWrapper>
 </template>
+<style lang="scss" scoped>
+.index-my {
+  width: 100%;
+  .index_mt {
+    width: 100%;
+  }
+}
+</style>
