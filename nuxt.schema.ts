@@ -18,7 +18,7 @@ export default defineNuxtSchema({
           },
         },
         footer: {
-          year: 2023,
+          year: new Date().getFullYear(),
         },
         welcome: {
           title: 'Nuxt&nbsp;3 Awesome Starter',

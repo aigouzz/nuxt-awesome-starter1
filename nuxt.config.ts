@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   experimental: {
     localLayerAliases: true,
   },
+  ssr: false,
 
   // app config
   app: {

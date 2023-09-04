@@ -5,5 +5,8 @@ useHead({ titleTemplate: '', title: awesome?.name || 'Nuxt 3 Awesome Starter' })
 </script>
 
 <template>
-  <AwesomeWelcome :with-alert="true" />
+  <div class="index_all">
+    <div><nuxt-link to="/post">goto post</nuxt-link></div>
+    <div><nuxt-link to="/my">goto my page</nuxt-link></div>
+  </div>
 </template>

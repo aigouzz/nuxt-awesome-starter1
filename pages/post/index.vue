@@ -39,15 +39,14 @@ useHead({ title: 'Posts' })
               <div class="text-gray-700 dark:text-gray-300 mb-1">
                 {{ article.description }}
               </div>
-              <div class="flex">
-                <AwesomeLink
-                  class="text-sm flex space-x-1 items-center text-primary-500"
-                  :to="article._path"
-                >
-                  <span>learn more</span>
-                  <Icon name="ic:baseline-arrow-right-alt" class="text-sm" />
-                </AwesomeLink>
-              </div>
+              <!-- <div class="flex"> -->
+              <AwesomeLink
+                class="text-sm flex space-x-1 items-center text-primary-500"
+                :to="article._path"
+              >
+                <span>learn more</span>
+                <Icon name="ic:baseline-arrow-right-alt" class="text-sm" />
+              </AwesomeLink>
             </div>
           </div>
         </template>
