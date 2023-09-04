@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     localLayerAliases: true,
   },
   ssr: false,
+  buildDir: 'nuxt-build',
 
   // app config
   app: {
